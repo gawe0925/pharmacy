@@ -1,0 +1,401 @@
+﻿sku,product_name,category,department,unit,stock_quantity,cost_price,retail_price,popularity,sold,incoming_stock,delivered_check,recommending_stock_number,mou
+PAN24T-001,panadol paracetamol 24 tablets,pain relief,otc medicine,tablets,50,10.89,15.64,cold,0,0,False,0,12
+NUR60T-002,nurofen ibuprofen 60 tablets,pain relief,otc medicine,tablets,110,7.67,11.59,cold,0,0,False,0,12
+ASP24T-003,aspirin 24 tablets,pain relief,otc medicine,tablets,22,8.91,12.14,cold,0,0,False,0,12
+VIC200M-004,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,24,10.27,14.75,cold,0,0,False,0,6
+OTR100M-005,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,74,13.48,17.13,cold,0,0,False,0,6
+COD20T-006,codral cold tablets 20 tablets,cold & flu,otc medicine,tablets,49,8.66,13.18,cold,0,0,False,0,12
+COD20T-007,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,61,14.28,18.39,cold,0,0,False,0,12
+ZYR30T-008,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,79,9.51,11.53,cold,0,0,False,0,12
+CLA10T-009,claratyne 10 tablets,allergy,otc medicine,tablets,77,11.98,15.73,cold,0,0,False,0,12
+TEL30T-010,telfast 30 tablets,allergy,otc medicine,tablets,96,8.22,11.31,cold,0,0,False,0,12
+BIO30T-011,bio c 30 tablets,vitamin c,vitamins & supplements,tablets,27,20.41,29.91,cold,0,0,False,0,3
+RED60T-012,redoxon vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,60,18.89,25.86,cold,0,0,False,0,3
+NAT60T-013,nature's way vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,24,20.84,25.41,cold,0,0,False,0,3
+BLA100C-014,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,61,27.78,41.3,cold,0,0,False,0,3
+SWI100C-015,swisse fish oil 100 capsules,fish oil,vitamins & supplements,capsules,74,25.03,33.66,cold,0,0,False,0,3
+LIF60C-016,life-space probiotic 60 capsules,probiotics,vitamins & supplements,capsules,50,15.14,21.6,cold,0,0,False,0,3
+COL150G-017,colgate toothpaste 150 g,oral care,personal care,g,100,8.89,13.44,cold,0,0,False,0,6
+ORA250G-018,oral-b toothpaste 250 g,oral care,personal care,g,24,8.92,11.62,cold,0,0,False,0,6
+CET100M-019,cetaphil moisturiser 100 ml,skin care,personal care,ml,62,23.73,29.7,cold,0,0,False,0,3
+REX250M-020,rexona deodorant 250 ml,personal hygiene,personal care,ml,42,12.78,15.94,cold,0,0,False,0,3
+PAL400M-021,palmolive body wash 400 ml,personal hygiene,personal care,ml,58,9.33,14.2,cold,0,0,False,0,3
+BAN200M-022,banana boat spf50+ 200 ml,sunscreen,sun & insect care,ml,73,18.19,23.33,cold,0,0,False,0,3
+CAN200M-023,cancer council sunscreen 200 ml,sunscreen,sun & insect care,ml,13,23.84,34.98,cold,0,0,False,0,3
+SUN200M-024,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,102,13.8,16.75,cold,0,0,False,0,3
+ALO100M-025,aloe vera after sun 100 ml,after sun,sun & insect care,ml,73,9.42,11.49,cold,0,0,False,0,3
+OMR1P-026,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,22,7.79,11.05,cold,0,0,False,0,1
+ELA30S-027,elastoplast bandage 30 strips,first aid,medical devices & supplies,strips,54,7.78,12.44,cold,0,0,False,0,6
+HUG80W-028,huggies baby wipes 80 wipes,baby wipes,baby & child,wipes,96,13.6,18.97,cold,0,0,False,0,3
+CUR100W-029,curash baby wipes 100 wipes,baby wipes,baby & child,wipes,61,12.92,16.13,cold,0,0,False,0,3
+APT900G-030,aptamil gold 900 g,infant formula,baby & child,g,24,32.57,40.5,cold,0,0,False,0,1
+S26900G-031,s26 gold 900 g,infant formula,baby & child,g,90,34.6,44.71,cold,0,0,False,0,1
+LIB24P-032,libra pads 24 pads,sanitary pads,women’s health,pads,107,10.81,14.12,cold,0,0,False,0,6
+ALW24P-033,always ultra thin 24 pads,sanitary pads,women’s health,pads,120,15.03,20.29,cold,0,0,False,0,6
+TOM32T-034,tom organic tampons 32 tampons,tampons,women’s health,tampons,28,8.54,13.15,cold,0,0,False,0,6
+CLE2P-035,clearblue pregnancy test 2 piece,pregnancy test,women’s health,piece,112,20.33,29.95,cold,0,0,False,0,1
+PAN60T-036,panadol paracetamol 60 tablets,pain relief,otc medicine,tablets,97,9.52,12.37,cold,0,0,False,0,12
+NUR60T-037,nurofen ibuprofen 60 tablets,pain relief,otc medicine,tablets,45,9.23,13.77,cold,0,0,False,0,12
+ASP60T-038,aspirin 60 tablets,pain relief,otc medicine,tablets,42,7.68,10.96,cold,0,0,False,0,12
+VIC100M-039,vicks cough syrup 100 ml,cold & flu,otc medicine,ml,90,10.32,16.22,cold,0,0,False,0,6
+OTR200M-040,otrivin nasal spray 200 ml,cold & flu,otc medicine,ml,105,13.91,19.2,cold,0,0,False,0,6
+COD30T-041,codral cold tablets 30 tablets,cold & flu,otc medicine,tablets,27,9.32,12.41,cold,0,0,False,0,12
+COD30T-042,codral day and night tablets 30 tablets,cold & flu,otc medicine,tablets,68,12.12,15.79,cold,0,0,False,0,12
+ZYR10T-043,zyrtec antihistamine 10 tablets,allergy,otc medicine,tablets,66,8.78,13.42,cold,0,0,False,0,12
+CLA30T-044,claratyne 30 tablets,allergy,otc medicine,tablets,57,9.22,11.19,cold,0,0,False,0,12
+TEL30T-045,telfast 30 tablets,allergy,otc medicine,tablets,40,8.49,12.22,cold,0,0,False,0,12
+BIO60T-046,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,19,17.32,21.93,cold,0,0,False,0,3
+RED60T-047,redoxon vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,81,13.27,16.18,cold,0,0,False,0,3
+NAT60T-048,nature's way vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,60,24.46,33.03,cold,0,0,False,0,3
+BLA100C-049,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,48,28.79,45.52,cold,0,0,False,0,3
+SWI200C-050,swisse fish oil 200 capsules,fish oil,vitamins & supplements,capsules,119,28.98,44.38,cold,0,0,False,0,3
+LIF60C-051,life-space probiotic 60 capsules,probiotics,vitamins & supplements,capsules,111,15.02,23.57,cold,0,0,False,0,3
+COL250G-052,colgate toothpaste 250 g,oral care,personal care,g,49,11.27,15.48,cold,0,0,False,0,6
+ORA250G-053,oral-b toothpaste 250 g,oral care,personal care,g,30,14.45,18.85,cold,0,0,False,0,6
+CET200M-054,cetaphil moisturiser 200 ml,skin care,personal care,ml,103,19.81,25.58,cold,0,0,False,0,3
+REX100M-055,rexona deodorant 100 ml,personal hygiene,personal care,ml,98,10.86,16.73,cold,0,0,False,0,3
+PAL100M-056,palmolive body wash 100 ml,personal hygiene,personal care,ml,33,12.27,14.85,cold,0,0,False,0,3
+BAN400M-057,banana boat spf50+ 400 ml,sunscreen,sun & insect care,ml,35,24.85,32.08,cold,0,0,False,0,3
+CAN400M-058,cancer council sunscreen 400 ml,sunscreen,sun & insect care,ml,47,18.5,26.68,cold,0,0,False,0,3
+SUN100M-059,sunsense after sun gel 100 ml,after sun,sun & insect care,ml,58,14.33,21.75,cold,0,0,False,0,3
+ALO200M-060,aloe vera after sun 200 ml,after sun,sun & insect care,ml,48,13.42,20.18,cold,0,0,False,0,3
+OMR1P-061,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,56,11.76,14.11,cold,0,0,False,0,1
+ELA20S-062,elastoplast bandage 20 strips,first aid,medical devices & supplies,strips,117,7.7,11.96,cold,0,0,False,0,6
+HUG100W-063,huggies baby wipes 100 wipes,baby wipes,baby & child,wipes,16,10.8,13.95,cold,0,0,False,0,3
+CUR80W-064,curash baby wipes 80 wipes,baby wipes,baby & child,wipes,113,11.63,14.58,cold,0,0,False,0,3
+APT900G-065,aptamil gold 900 g,infant formula,baby & child,g,102,32.89,45.27,cold,0,0,False,0,1
+S26900G-066,s26 gold 900 g,infant formula,baby & child,g,108,30.19,38.37,cold,0,0,False,0,1
+LIB12P-067,libra pads 12 pads,sanitary pads,women’s health,pads,19,17.15,26.32,cold,0,0,False,0,6
+ALW12P-068,always ultra thin 12 pads,sanitary pads,women’s health,pads,14,15.7,20.23,cold,0,0,False,0,6
+TOM16T-069,tom organic tampons 16 tampons,tampons,women’s health,tampons,103,11.62,17.81,cold,0,0,False,0,6
+CLE2P-070,clearblue pregnancy test 2 piece,pregnancy test,women’s health,piece,45,20.07,28.72,cold,0,0,False,0,1
+PAN24T-071,panadol paracetamol 24 tablets,pain relief,otc medicine,tablets,13,8.64,13.77,cold,0,0,False,0,12
+NUR24T-072,nurofen ibuprofen 24 tablets,pain relief,otc medicine,tablets,37,7.86,10.32,cold,0,0,False,0,12
+ASP48T-073,aspirin 48 tablets,pain relief,otc medicine,tablets,111,10.3,16.36,cold,0,0,False,0,12
+VIC200M-074,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,29,8.3,12.68,cold,0,0,False,0,6
+OTR200M-075,otrivin nasal spray 200 ml,cold & flu,otc medicine,ml,70,9.51,15.08,cold,0,0,False,0,6
+COD20T-076,codral cold tablets 20 tablets,cold & flu,otc medicine,tablets,88,14.17,21.63,cold,0,0,False,0,12
+COD10T-077,codral day and night tablets 10 tablets,cold & flu,otc medicine,tablets,71,7.41,9.79,cold,0,0,False,0,12
+ZYR30T-078,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,90,6.1,8.51,cold,0,0,False,0,12
+CLA10T-079,claratyne 10 tablets,allergy,otc medicine,tablets,106,7.17,8.95,cold,0,0,False,0,12
+TEL10T-080,telfast 10 tablets,allergy,otc medicine,tablets,120,7.46,9.07,cold,0,0,False,0,12
+BIO60T-081,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,82,23.59,36.27,cold,0,0,False,0,3
+RED100T-082,redoxon vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,80,20.11,28.02,cold,0,0,False,0,3
+NAT100T-083,nature's way vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,14,16.99,20.82,cold,0,0,False,0,3
+BLA200C-084,blackmores fish oil 200 capsules,fish oil,vitamins & supplements,capsules,97,29.0,38.93,cold,0,0,False,0,3
+SWI200C-085,swisse fish oil 200 capsules,fish oil,vitamins & supplements,capsules,87,26.76,34.97,cold,0,0,False,0,3
+LIF30C-086,life-space probiotic 30 capsules,probiotics,vitamins & supplements,capsules,87,20.82,27.55,cold,0,0,False,0,3
+COL250G-087,colgate toothpaste 250 g,oral care,personal care,g,50,11.24,15.76,cold,0,0,False,0,6
+ORA250G-088,oral-b toothpaste 250 g,oral care,personal care,g,22,5.34,7.46,cold,0,0,False,0,6
+CET200M-089,cetaphil moisturiser 200 ml,skin care,personal care,ml,34,27.42,40.38,cold,0,0,False,0,3
+REX400M-090,rexona deodorant 400 ml,personal hygiene,personal care,ml,37,6.94,11.04,cold,0,0,False,0,3
+PAL250M-091,palmolive body wash 250 ml,personal hygiene,personal care,ml,97,14.57,22.41,cold,0,0,False,0,3
+BAN200M-092,banana boat spf50+ 200 ml,sunscreen,sun & insect care,ml,82,19.7,25.27,cold,0,0,False,0,3
+CAN200M-093,cancer council sunscreen 200 ml,sunscreen,sun & insect care,ml,51,20.69,32.51,cold,0,0,False,0,3
+SUN200M-094,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,41,12.42,15.27,cold,0,0,False,0,3
+ALO200M-095,aloe vera after sun 200 ml,after sun,sun & insect care,ml,83,9.17,12.01,cold,0,0,False,0,3
+OMR1P-096,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,38,7.03,8.99,cold,0,0,False,0,1
+ELA20S-097,elastoplast bandage 20 strips,first aid,medical devices & supplies,strips,91,6.27,9.26,cold,0,0,False,0,6
+HUG80W-098,huggies baby wipes 80 wipes,baby wipes,baby & child,wipes,78,7.3,10.63,cold,0,0,False,0,3
+CUR80W-099,curash baby wipes 80 wipes,baby wipes,baby & child,wipes,102,7.76,11.47,cold,0,0,False,0,3
+APT900G-100,aptamil gold 900 g,infant formula,baby & child,g,87,32.03,50.64,cold,0,0,False,0,1
+S26900G-101,s26 gold 900 g,infant formula,baby & child,g,63,38.29,58.83,cold,0,0,False,0,1
+LIB24P-102,libra pads 24 pads,sanitary pads,women’s health,pads,78,11.41,17.11,cold,0,0,False,0,6
+ALW24P-103,always ultra thin 24 pads,sanitary pads,women’s health,pads,97,16.15,24.84,cold,0,0,False,0,6
+TOM32T-104,tom organic tampons 32 tampons,tampons,women’s health,tampons,102,7.93,10.79,cold,0,0,False,0,6
+CLE1P-105,clearblue pregnancy test 1 piece,pregnancy test,women’s health,piece,61,20.49,28.84,cold,0,0,False,0,1
+PAN48T-106,panadol paracetamol 48 tablets,pain relief,otc medicine,tablets,95,10.68,15.79,cold,0,0,False,0,12
+NUR24T-107,nurofen ibuprofen 24 tablets,pain relief,otc medicine,tablets,86,11.84,14.25,cold,0,0,False,0,12
+ASP24T-108,aspirin 24 tablets,pain relief,otc medicine,tablets,112,11.5,15.7,cold,0,0,False,0,12
+VIC200M-109,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,75,10.68,13.6,cold,0,0,False,0,6
+OTR100M-110,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,66,11.96,18.56,cold,0,0,False,0,6
+COD10T-111,codral cold tablets 10 tablets,cold & flu,otc medicine,tablets,63,11.48,14.04,cold,0,0,False,0,12
+COD20T-112,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,59,14.25,17.16,cold,0,0,False,0,12
+ZYR30T-113,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,58,10.86,16.33,cold,0,0,False,0,12
+CLA30T-114,claratyne 30 tablets,allergy,otc medicine,tablets,19,10.19,15.91,cold,0,0,False,0,12
+TEL10T-115,telfast 10 tablets,allergy,otc medicine,tablets,74,6.18,9.59,cold,0,0,False,0,12
+BIO60T-116,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,27,17.44,22.85,cold,0,0,False,0,3
+RED60T-117,redoxon vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,85,15.59,24.2,cold,0,0,False,0,3
+NAT100T-118,nature's way vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,94,24.01,33.87,cold,0,0,False,0,3
+BLA60C-119,blackmores fish oil 60 capsules,fish oil,vitamins & supplements,capsules,71,27.97,39.81,cold,0,0,False,0,3
+SWI100C-120,swisse fish oil 100 capsules,fish oil,vitamins & supplements,capsules,49,25.03,38.8,cold,0,0,False,0,3
+LIF30C-121,life-space probiotic 30 capsules,probiotics,vitamins & supplements,capsules,12,20.2,26.12,cold,0,0,False,0,3
+COL250G-122,colgate toothpaste 250 g,oral care,personal care,g,101,7.21,9.09,cold,0,0,False,0,6
+ORA75G-123,oral-b toothpaste 75 g,oral care,personal care,g,39,7.28,10.13,cold,0,0,False,0,6
+CET100M-124,cetaphil moisturiser 100 ml,skin care,personal care,ml,92,25.31,36.93,cold,0,0,False,0,3
+REX400M-125,rexona deodorant 400 ml,personal hygiene,personal care,ml,65,7.21,9.03,cold,0,0,False,0,3
+PAL100M-126,palmolive body wash 100 ml,personal hygiene,personal care,ml,49,6.74,8.36,cold,0,0,False,0,3
+BAN400M-127,banana boat spf50+ 400 ml,sunscreen,sun & insect care,ml,82,20.94,28.87,cold,0,0,False,0,3
+CAN400M-128,cancer council sunscreen 400 ml,sunscreen,sun & insect care,ml,73,22.68,33.15,cold,0,0,False,0,3
+SUN200M-129,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,54,15.61,19.64,cold,0,0,False,0,3
+ALO100M-130,aloe vera after sun 100 ml,after sun,sun & insect care,ml,110,10.62,14.14,cold,0,0,False,0,3
+OMR1P-131,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,48,9.19,12.81,cold,0,0,False,0,1
+ELA30S-132,elastoplast bandage 30 strips,first aid,medical devices & supplies,strips,57,5.1,7.14,cold,0,0,False,0,6
+HUG40W-133,huggies baby wipes 40 wipes,baby wipes,baby & child,wipes,27,6.93,10.21,cold,0,0,False,0,3
+CUR40W-134,curash baby wipes 40 wipes,baby wipes,baby & child,wipes,29,7.97,11.25,cold,0,0,False,0,3
+APT900G-135,aptamil gold 900 g,infant formula,baby & child,g,63,37.18,53.11,cold,0,0,False,0,1
+S26900G-136,s26 gold 900 g,infant formula,baby & child,g,49,34.73,43.59,cold,0,0,False,0,1
+LIB24P-137,libra pads 24 pads,sanitary pads,women’s health,pads,45,11.17,13.89,cold,0,0,False,0,6
+ALW16P-138,always ultra thin 16 pads,sanitary pads,women’s health,pads,76,13.11,17.01,cold,0,0,False,0,6
+TOM16T-139,tom organic tampons 16 tampons,tampons,women’s health,tampons,65,7.62,9.43,cold,0,0,False,0,6
+CLE1P-140,clearblue pregnancy test 1 piece,pregnancy test,women’s health,piece,85,21.06,30.58,cold,0,0,False,0,1
+PAN48T-141,panadol paracetamol 48 tablets,pain relief,otc medicine,tablets,116,11.28,16.35,cold,0,0,False,0,12
+NUR24T-142,nurofen ibuprofen 24 tablets,pain relief,otc medicine,tablets,52,7.07,9.44,cold,0,0,False,0,12
+ASP60T-143,aspirin 60 tablets,pain relief,otc medicine,tablets,31,8.39,10.4,cold,0,0,False,0,12
+VIC100M-144,vicks cough syrup 100 ml,cold & flu,otc medicine,ml,49,10.1,13.59,cold,0,0,False,0,6
+OTR100M-145,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,93,14.13,18.45,cold,0,0,False,0,6
+COD10T-146,codral cold tablets 10 tablets,cold & flu,otc medicine,tablets,114,14.05,17.62,cold,0,0,False,0,12
+COD20T-147,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,56,12.17,15.83,cold,0,0,False,0,12
+ZYR30T-148,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,28,7.08,9.88,cold,0,0,False,0,12
+CLA30T-149,claratyne 30 tablets,allergy,otc medicine,tablets,20,9.69,12.61,cold,0,0,False,0,12
+TEL30T-150,telfast 30 tablets,allergy,otc medicine,tablets,57,9.92,15.82,cold,0,0,False,0,12
+BIO60T-151,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,93,24.2,30.06,cold,0,0,False,0,3
+RED30T-152,redoxon vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,77,12.97,16.53,cold,0,0,False,0,3
+NAT30T-153,nature's way vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,87,23.73,33.75,cold,0,0,False,0,3
+BLA100C-154,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,84,29.14,40.73,cold,0,0,False,0,3
+SWI60C-155,swisse fish oil 60 capsules,fish oil,vitamins & supplements,capsules,60,26.66,36.8,cold,0,0,False,0,3
+LIF30C-156,life-space probiotic 30 capsules,probiotics,vitamins & supplements,capsules,33,17.68,22.98,cold,0,0,False,0,3
+COL250G-157,colgate toothpaste 250 g,oral care,personal care,g,38,9.84,13.99,cold,0,0,False,0,6
+ORA250G-158,oral-b toothpaste 250 g,oral care,personal care,g,84,5.16,7.03,cold,0,0,False,0,6
+CET200M-159,cetaphil moisturiser 200 ml,skin care,personal care,ml,46,22.34,35.52,cold,0,0,False,0,3
+REX400M-160,rexona deodorant 400 ml,personal hygiene,personal care,ml,71,7.73,12.2,cold,0,0,False,0,3
+PAL250M-161,palmolive body wash 250 ml,personal hygiene,personal care,ml,17,9.16,12.92,cold,0,0,False,0,3
+BAN200M-162,banana boat spf50+ 200 ml,sunscreen,sun & insect care,ml,33,18.46,23.26,cold,0,0,False,0,3
+CAN400M-163,cancer council sunscreen 400 ml,sunscreen,sun & insect care,ml,117,18.98,26.73,cold,0,0,False,0,3
+SUN100M-164,sunsense after sun gel 100 ml,after sun,sun & insect care,ml,61,8.01,10.14,cold,0,0,False,0,3
+ALO200M-165,aloe vera after sun 200 ml,after sun,sun & insect care,ml,26,15.11,20.12,cold,0,0,False,0,3
+OMR1P-166,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,44,9.29,12.67,cold,0,0,False,0,1
+ELA10S-167,elastoplast bandage 10 strips,first aid,medical devices & supplies,strips,118,5.3,8.04,cold,0,0,False,0,6
+HUG100W-168,huggies baby wipes 100 wipes,baby wipes,baby & child,wipes,79,12.73,17.06,cold,0,0,False,0,3
+CUR100W-169,curash baby wipes 100 wipes,baby wipes,baby & child,wipes,45,12.75,16.96,cold,0,0,False,0,3
+APT900G-170,aptamil gold 900 g,infant formula,baby & child,g,59,30.77,44.56,cold,0,0,False,0,1
+S26900G-171,s26 gold 900 g,infant formula,baby & child,g,105,30.75,46.68,cold,0,0,False,0,1
+LIB16P-172,libra pads 16 pads,sanitary pads,women’s health,pads,35,11.53,16.61,cold,0,0,False,0,6
+ALW16P-173,always ultra thin 16 pads,sanitary pads,women’s health,pads,54,17.17,23.68,cold,0,0,False,0,6
+TOM32T-174,tom organic tampons 32 tampons,tampons,women’s health,tampons,55,10.72,15.41,cold,0,0,False,0,6
+CLE1P-175,clearblue pregnancy test 1 piece,pregnancy test,women’s health,piece,57,20.43,27.48,cold,0,0,False,0,1
+PAN48T-176,panadol paracetamol 48 tablets,pain relief,otc medicine,tablets,106,7.1,10.6,cold,0,0,False,0,12
+NUR48T-177,nurofen ibuprofen 48 tablets,pain relief,otc medicine,tablets,119,9.63,12.18,cold,0,0,False,0,12
+ASP60T-178,aspirin 60 tablets,pain relief,otc medicine,tablets,75,8.13,11.35,cold,0,0,False,0,12
+VIC200M-179,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,24,11.12,16.69,cold,0,0,False,0,6
+OTR100M-180,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,61,13.76,19.53,cold,0,0,False,0,6
+COD10T-181,codral cold tablets 10 tablets,cold & flu,otc medicine,tablets,99,8.89,13.45,cold,0,0,False,0,12
+COD20T-182,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,82,8.32,10.28,cold,0,0,False,0,12
+ZYR30T-183,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,43,10.37,15.38,cold,0,0,False,0,12
+CLA30T-184,claratyne 30 tablets,allergy,otc medicine,tablets,23,11.59,16.49,cold,0,0,False,0,12
+TEL30T-185,telfast 30 tablets,allergy,otc medicine,tablets,56,11.8,14.83,cold,0,0,False,0,12
+BIO30T-186,bio c 30 tablets,vitamin c,vitamins & supplements,tablets,34,14.51,17.99,cold,0,0,False,0,3
+RED30T-187,redoxon vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,54,17.99,26.26,cold,0,0,False,0,3
+NAT30T-188,nature's way vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,90,17.42,25.72,cold,0,0,False,0,3
+BLA100C-189,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,46,25.59,31.19,cold,0,0,False,0,3
+SWI200C-190,swisse fish oil 200 capsules,fish oil,vitamins & supplements,capsules,84,27.4,33.61,cold,0,0,False,0,3
+LIF60C-191,life-space probiotic 60 capsules,probiotics,vitamins & supplements,capsules,53,21.64,32.03,cold,0,0,False,0,3
+COL150G-192,colgate toothpaste 150 g,oral care,personal care,g,22,6.81,10.18,cold,0,0,False,0,6
+ORA75G-193,oral-b toothpaste 75 g,oral care,personal care,g,101,11.53,17.8,cold,0,0,False,0,6
+CET200M-194,cetaphil moisturiser 200 ml,skin care,personal care,ml,31,22.16,27.96,cold,0,0,False,0,3
+REX250M-195,rexona deodorant 250 ml,personal hygiene,personal care,ml,47,13.93,19.18,cold,0,0,False,0,3
+PAL250M-196,palmolive body wash 250 ml,personal hygiene,personal care,ml,45,15.16,23.85,cold,0,0,False,0,3
+BAN100M-197,banana boat spf50+ 100 ml,sunscreen,sun & insect care,ml,106,18.67,28.75,cold,0,0,False,0,3
+CAN200M-198,cancer council sunscreen 200 ml,sunscreen,sun & insect care,ml,36,22.76,34.68,cold,0,0,False,0,3
+SUN200M-199,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,96,11.72,16.83,cold,0,0,False,0,3
+ALO100M-200,aloe vera after sun 100 ml,after sun,sun & insect care,ml,105,9.74,14.38,cold,0,0,False,0,3
+OMR1P-201,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,52,7.92,11.58,cold,0,0,False,0,1
+ELA20S-202,elastoplast bandage 20 strips,first aid,medical devices & supplies,strips,101,9.34,11.48,cold,0,0,False,0,6
+HUG80W-203,huggies baby wipes 80 wipes,baby wipes,baby & child,wipes,54,12.11,17.97,cold,0,0,False,0,3
+CUR40W-204,curash baby wipes 40 wipes,baby wipes,baby & child,wipes,99,11.15,14.49,cold,0,0,False,0,3
+APT900G-205,aptamil gold 900 g,infant formula,baby & child,g,118,35.9,57.14,cold,0,0,False,0,1
+S26900G-206,s26 gold 900 g,infant formula,baby & child,g,26,34.32,53.71,cold,0,0,False,0,1
+LIB12P-207,libra pads 12 pads,sanitary pads,women’s health,pads,53,11.22,14.62,cold,0,0,False,0,6
+ALW12P-208,always ultra thin 12 pads,sanitary pads,women’s health,pads,45,9.02,14.41,cold,0,0,False,0,6
+TOM16T-209,tom organic tampons 16 tampons,tampons,women’s health,tampons,85,12.32,16.08,cold,0,0,False,0,6
+CLE2P-210,clearblue pregnancy test 2 piece,pregnancy test,women’s health,piece,81,19.44,29.12,cold,0,0,False,0,1
+PAN48T-211,panadol paracetamol 48 tablets,pain relief,otc medicine,tablets,21,8.82,10.87,cold,0,0,False,0,12
+NUR24T-212,nurofen ibuprofen 24 tablets,pain relief,otc medicine,tablets,37,7.95,12.12,cold,0,0,False,0,12
+ASP60T-213,aspirin 60 tablets,pain relief,otc medicine,tablets,119,8.85,12.17,cold,0,0,False,0,12
+VIC100M-214,vicks cough syrup 100 ml,cold & flu,otc medicine,ml,20,13.5,18.23,cold,0,0,False,0,6
+OTR100M-215,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,101,9.85,12.93,cold,0,0,False,0,6
+COD30T-216,codral cold tablets 30 tablets,cold & flu,otc medicine,tablets,113,11.55,14.24,cold,0,0,False,0,12
+COD20T-217,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,38,11.27,17.44,cold,0,0,False,0,12
+ZYR30T-218,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,64,6.21,9.56,cold,0,0,False,0,12
+CLA10T-219,claratyne 10 tablets,allergy,otc medicine,tablets,109,10.25,14.14,cold,0,0,False,0,12
+TEL10T-220,telfast 10 tablets,allergy,otc medicine,tablets,42,7.74,10.26,cold,0,0,False,0,12
+BIO100T-221,bio c 100 tablets,vitamin c,vitamins & supplements,tablets,112,19.92,29.11,cold,0,0,False,0,3
+RED60T-222,redoxon vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,21,18.02,26.39,cold,0,0,False,0,3
+NAT60T-223,nature's way vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,113,13.0,17.03,cold,0,0,False,0,3
+BLA100C-224,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,47,29.19,44.54,cold,0,0,False,0,3
+SWI100C-225,swisse fish oil 100 capsules,fish oil,vitamins & supplements,capsules,37,29.88,46.05,cold,0,0,False,0,3
+LIF60C-226,life-space probiotic 60 capsules,probiotics,vitamins & supplements,capsules,63,18.77,24.27,cold,0,0,False,0,3
+COL250G-227,colgate toothpaste 250 g,oral care,personal care,g,73,6.02,7.28,cold,0,0,False,0,6
+ORA75G-228,oral-b toothpaste 75 g,oral care,personal care,g,37,5.17,7.66,cold,0,0,False,0,6
+CET100M-229,cetaphil moisturiser 100 ml,skin care,personal care,ml,31,22.94,32.54,cold,0,0,False,0,3
+REX400M-230,rexona deodorant 400 ml,personal hygiene,personal care,ml,61,15.08,19.41,cold,0,0,False,0,3
+PAL100M-231,palmolive body wash 100 ml,personal hygiene,personal care,ml,112,7.4,10.77,cold,0,0,False,0,3
+BAN200M-232,banana boat spf50+ 200 ml,sunscreen,sun & insect care,ml,39,20.13,31.85,cold,0,0,False,0,3
+CAN200M-233,cancer council sunscreen 200 ml,sunscreen,sun & insect care,ml,10,18.96,29.63,cold,0,0,False,0,3
+SUN200M-234,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,94,12.69,16.78,cold,0,0,False,0,3
+ALO100M-235,aloe vera after sun 100 ml,after sun,sun & insect care,ml,32,15.62,22.09,cold,0,0,False,0,3
+OMR1P-236,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,41,10.56,16.31,cold,0,0,False,0,1
+ELA10S-237,elastoplast bandage 10 strips,first aid,medical devices & supplies,strips,51,7.48,9.6,cold,0,0,False,0,6
+HUG100W-238,huggies baby wipes 100 wipes,baby wipes,baby & child,wipes,80,8.12,9.75,cold,0,0,False,0,3
+CUR100W-239,curash baby wipes 100 wipes,baby wipes,baby & child,wipes,37,15.29,21.46,cold,0,0,False,0,3
+APT900G-240,aptamil gold 900 g,infant formula,baby & child,g,73,38.67,61.36,cold,0,0,False,0,1
+S26900G-241,s26 gold 900 g,infant formula,baby & child,g,24,32.88,48.44,cold,0,0,False,0,1
+LIB16P-242,libra pads 16 pads,sanitary pads,women’s health,pads,71,11.55,15.05,cold,0,0,False,0,6
+ALW12P-243,always ultra thin 12 pads,sanitary pads,women’s health,pads,28,12.48,15.05,cold,0,0,False,0,6
+TOM16T-244,tom organic tampons 16 tampons,tampons,women’s health,tampons,85,6.26,9.0,cold,0,0,False,0,6
+CLE1P-245,clearblue pregnancy test 1 piece,pregnancy test,women’s health,piece,118,21.48,32.55,cold,0,0,False,0,1
+PAN24T-246,panadol paracetamol 24 tablets,pain relief,otc medicine,tablets,107,8.56,10.27,cold,0,0,False,0,12
+NUR24T-247,nurofen ibuprofen 24 tablets,pain relief,otc medicine,tablets,118,10.4,13.34,cold,0,0,False,0,12
+ASP48T-248,aspirin 48 tablets,pain relief,otc medicine,tablets,100,8.58,13.49,cold,0,0,False,0,12
+VIC200M-249,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,50,9.66,14.23,cold,0,0,False,0,6
+OTR200M-250,otrivin nasal spray 200 ml,cold & flu,otc medicine,ml,100,12.19,15.46,cold,0,0,False,0,6
+COD20T-251,codral cold tablets 20 tablets,cold & flu,otc medicine,tablets,13,13.18,20.48,cold,0,0,False,0,12
+COD20T-252,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,82,10.97,15.71,cold,0,0,False,0,12
+ZYR30T-253,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,117,8.93,12.12,cold,0,0,False,0,12
+CLA30T-254,claratyne 30 tablets,allergy,otc medicine,tablets,89,7.39,11.37,cold,0,0,False,0,12
+TEL10T-255,telfast 10 tablets,allergy,otc medicine,tablets,115,11.0,14.58,cold,0,0,False,0,12
+BIO60T-256,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,115,22.73,30.41,cold,0,0,False,0,3
+RED100T-257,redoxon vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,113,21.36,33.62,cold,0,0,False,0,3
+NAT60T-258,nature's way vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,79,24.43,30.7,cold,0,0,False,0,3
+BLA100C-259,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,99,28.7,39.52,cold,0,0,False,0,3
+SWI60C-260,swisse fish oil 60 capsules,fish oil,vitamins & supplements,capsules,48,27.56,40.03,cold,0,0,False,0,3
+LIF30C-261,life-space probiotic 30 capsules,probiotics,vitamins & supplements,capsules,86,19.41,29.59,cold,0,0,False,0,3
+COL150G-262,colgate toothpaste 150 g,oral care,personal care,g,58,13.23,16.69,cold,0,0,False,0,6
+ORA250G-263,oral-b toothpaste 250 g,oral care,personal care,g,109,10.88,17.4,cold,0,0,False,0,6
+CET200M-264,cetaphil moisturiser 200 ml,skin care,personal care,ml,68,20.91,29.06,cold,0,0,False,0,3
+REX250M-265,rexona deodorant 250 ml,personal hygiene,personal care,ml,49,16.86,22.37,cold,0,0,False,0,3
+PAL250M-266,palmolive body wash 250 ml,personal hygiene,personal care,ml,24,16.68,24.72,cold,0,0,False,0,3
+BAN400M-267,banana boat spf50+ 400 ml,sunscreen,sun & insect care,ml,102,19.74,28.64,cold,0,0,False,0,3
+CAN200M-268,cancer council sunscreen 200 ml,sunscreen,sun & insect care,ml,16,21.79,28.1,cold,0,0,False,0,3
+SUN100M-269,sunsense after sun gel 100 ml,after sun,sun & insect care,ml,51,10.25,13.34,cold,0,0,False,0,3
+ALO100M-270,aloe vera after sun 100 ml,after sun,sun & insect care,ml,76,11.36,14.6,cold,0,0,False,0,3
+OMR1P-271,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,33,9.04,12.98,cold,0,0,False,0,1
+ELA10S-272,elastoplast bandage 10 strips,first aid,medical devices & supplies,strips,97,7.33,10.93,cold,0,0,False,0,6
+HUG40W-273,huggies baby wipes 40 wipes,baby wipes,baby & child,wipes,34,7.41,11.81,cold,0,0,False,0,3
+CUR80W-274,curash baby wipes 80 wipes,baby wipes,baby & child,wipes,28,17.47,26.9,cold,0,0,False,0,3
+APT900G-275,aptamil gold 900 g,infant formula,baby & child,g,84,31.85,39.31,cold,0,0,False,0,1
+S26900G-276,s26 gold 900 g,infant formula,baby & child,g,64,30.95,46.98,cold,0,0,False,0,1
+LIB30P-277,libra pads 30 pads,sanitary pads,women’s health,pads,14,16.07,25.31,cold,0,0,False,0,6
+ALW24P-278,always ultra thin 24 pads,sanitary pads,women’s health,pads,29,16.98,24.44,cold,0,0,False,0,6
+TOM32T-279,tom organic tampons 32 tampons,tampons,women’s health,tampons,57,11.38,14.29,cold,0,0,False,0,6
+CLE1P-280,clearblue pregnancy test 1 piece,pregnancy test,women’s health,piece,59,20.83,33.25,cold,0,0,False,0,1
+PAN48T-281,panadol paracetamol 48 tablets,pain relief,otc medicine,tablets,90,7.69,10.1,cold,0,0,False,0,12
+NUR48T-282,nurofen ibuprofen 48 tablets,pain relief,otc medicine,tablets,42,7.35,9.05,cold,0,0,False,0,12
+ASP48T-283,aspirin 48 tablets,pain relief,otc medicine,tablets,92,7.59,11.65,cold,0,0,False,0,12
+VIC100M-284,vicks cough syrup 100 ml,cold & flu,otc medicine,ml,50,11.45,18.12,cold,0,0,False,0,6
+OTR200M-285,otrivin nasal spray 200 ml,cold & flu,otc medicine,ml,104,8.92,13.81,cold,0,0,False,0,6
+COD30T-286,codral cold tablets 30 tablets,cold & flu,otc medicine,tablets,51,8.48,12.24,cold,0,0,False,0,12
+COD10T-287,codral day and night tablets 10 tablets,cold & flu,otc medicine,tablets,96,12.1,17.3,cold,0,0,False,0,12
+ZYR30T-288,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,43,6.91,8.38,cold,0,0,False,0,12
+CLA10T-289,claratyne 10 tablets,allergy,otc medicine,tablets,25,11.43,14.43,cold,0,0,False,0,12
+TEL10T-290,telfast 10 tablets,allergy,otc medicine,tablets,58,8.0,11.92,cold,0,0,False,0,12
+BIO30T-291,bio c 30 tablets,vitamin c,vitamins & supplements,tablets,120,14.09,20.87,cold,0,0,False,0,3
+RED30T-292,redoxon vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,120,21.42,30.38,cold,0,0,False,0,3
+NAT100T-293,nature's way vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,95,13.91,18.08,cold,0,0,False,0,3
+BLA100C-294,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,104,28.44,40.88,cold,0,0,False,0,3
+SWI200C-295,swisse fish oil 200 capsules,fish oil,vitamins & supplements,capsules,89,28.53,40.3,cold,0,0,False,0,3
+LIF60C-296,life-space probiotic 60 capsules,probiotics,vitamins & supplements,capsules,39,18.35,26.19,cold,0,0,False,0,3
+COL150G-297,colgate toothpaste 150 g,oral care,personal care,g,90,6.45,8.14,cold,0,0,False,0,6
+ORA75G-298,oral-b toothpaste 75 g,oral care,personal care,g,82,5.08,7.1,cold,0,0,False,0,6
+CET100M-299,cetaphil moisturiser 100 ml,skin care,personal care,ml,23,27.24,39.3,cold,0,0,False,0,3
+REX250M-300,rexona deodorant 250 ml,personal hygiene,personal care,ml,24,9.75,12.33,cold,0,0,False,0,3
+PAL250M-301,palmolive body wash 250 ml,personal hygiene,personal care,ml,48,10.73,14.94,cold,0,0,False,0,3
+BAN400M-302,banana boat spf50+ 400 ml,sunscreen,sun & insect care,ml,114,20.88,29.98,cold,0,0,False,0,3
+CAN200M-303,cancer council sunscreen 200 ml,sunscreen,sun & insect care,ml,56,23.11,33.48,cold,0,0,False,0,3
+SUN200M-304,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,18,8.16,11.19,cold,0,0,False,0,3
+ALO200M-305,aloe vera after sun 200 ml,after sun,sun & insect care,ml,93,10.17,12.31,cold,0,0,False,0,3
+OMR1P-306,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,71,8.69,11.05,cold,0,0,False,0,1
+ELA10S-307,elastoplast bandage 10 strips,first aid,medical devices & supplies,strips,43,9.48,13.11,cold,0,0,False,0,6
+HUG80W-308,huggies baby wipes 80 wipes,baby wipes,baby & child,wipes,22,12.54,19.23,cold,0,0,False,0,3
+CUR40W-309,curash baby wipes 40 wipes,baby wipes,baby & child,wipes,111,10.45,15.8,cold,0,0,False,0,3
+APT900G-310,aptamil gold 900 g,infant formula,baby & child,g,109,30.32,41.36,cold,0,0,False,0,1
+S26900G-311,s26 gold 900 g,infant formula,baby & child,g,61,36.36,55.81,cold,0,0,False,0,1
+LIB12P-312,libra pads 12 pads,sanitary pads,women’s health,pads,45,16.66,20.55,cold,0,0,False,0,6
+ALW30P-313,always ultra thin 30 pads,sanitary pads,women’s health,pads,68,12.49,19.87,cold,0,0,False,0,6
+TOM32T-314,tom organic tampons 32 tampons,tampons,women’s health,tampons,35,6.95,9.84,cold,0,0,False,0,6
+CLE2P-315,clearblue pregnancy test 2 piece,pregnancy test,women’s health,piece,55,19.2,29.51,cold,0,0,False,0,1
+PAN48T-316,panadol paracetamol 48 tablets,pain relief,otc medicine,tablets,50,8.28,9.98,cold,0,0,False,0,12
+NUR48T-317,nurofen ibuprofen 48 tablets,pain relief,otc medicine,tablets,109,9.11,11.07,cold,0,0,False,0,12
+ASP24T-318,aspirin 24 tablets,pain relief,otc medicine,tablets,14,7.71,11.88,cold,0,0,False,0,12
+VIC200M-319,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,105,11.19,14.95,cold,0,0,False,0,6
+OTR200M-320,otrivin nasal spray 200 ml,cold & flu,otc medicine,ml,36,14.69,20.63,cold,0,0,False,0,6
+COD20T-321,codral cold tablets 20 tablets,cold & flu,otc medicine,tablets,77,10.85,16.95,cold,0,0,False,0,12
+COD10T-322,codral day and night tablets 10 tablets,cold & flu,otc medicine,tablets,95,10.39,14.41,cold,0,0,False,0,12
+ZYR10T-323,zyrtec antihistamine 10 tablets,allergy,otc medicine,tablets,91,6.95,8.4,cold,0,0,False,0,12
+CLA10T-324,claratyne 10 tablets,allergy,otc medicine,tablets,100,9.31,14.08,cold,0,0,False,0,12
+TEL30T-325,telfast 30 tablets,allergy,otc medicine,tablets,66,10.27,16.01,cold,0,0,False,0,12
+BIO100T-326,bio c 100 tablets,vitamin c,vitamins & supplements,tablets,53,12.16,18.36,cold,0,0,False,0,3
+RED30T-327,redoxon vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,45,21.74,30.35,cold,0,0,False,0,3
+NAT30T-328,nature's way vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,68,15.9,24.71,cold,0,0,False,0,3
+BLA100C-329,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,66,28.14,41.01,cold,0,0,False,0,3
+SWI100C-330,swisse fish oil 100 capsules,fish oil,vitamins & supplements,capsules,116,25.06,38.99,cold,0,0,False,0,3
+LIF30C-331,life-space probiotic 30 capsules,probiotics,vitamins & supplements,capsules,114,18.69,29.85,cold,0,0,False,0,3
+COL75G-332,colgate toothpaste 75 g,oral care,personal care,g,55,10.34,14.77,cold,0,0,False,0,6
+ORA150G-333,oral-b toothpaste 150 g,oral care,personal care,g,47,8.04,11.56,cold,0,0,False,0,6
+CET500M-334,cetaphil moisturiser 500 ml,skin care,personal care,ml,61,15.56,21.06,cold,0,0,False,0,3
+REX400M-335,rexona deodorant 400 ml,personal hygiene,personal care,ml,97,14.13,20.43,cold,0,0,False,0,3
+PAL250M-336,palmolive body wash 250 ml,personal hygiene,personal care,ml,40,15.34,22.56,cold,0,0,False,0,3
+BAN200M-337,banana boat spf50+ 200 ml,sunscreen,sun & insect care,ml,88,24.42,31.99,cold,0,0,False,0,3
+CAN100M-338,cancer council sunscreen 100 ml,sunscreen,sun & insect care,ml,11,23.51,32.35,cold,0,0,False,0,3
+SUN200M-339,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,75,8.94,13.83,cold,0,0,False,0,3
+ALO100M-340,aloe vera after sun 100 ml,after sun,sun & insect care,ml,103,8.71,12.64,cold,0,0,False,0,3
+OMR1P-341,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,78,10.54,13.83,cold,0,0,False,0,1
+ELA10S-342,elastoplast bandage 10 strips,first aid,medical devices & supplies,strips,17,9.21,11.99,cold,0,0,False,0,6
+HUG100W-343,huggies baby wipes 100 wipes,baby wipes,baby & child,wipes,89,13.94,20.11,cold,0,0,False,0,3
+CUR100W-344,curash baby wipes 100 wipes,baby wipes,baby & child,wipes,48,17.32,24.02,cold,0,0,False,0,3
+APT900G-345,aptamil gold 900 g,infant formula,baby & child,g,37,32.49,40.78,cold,0,0,False,0,1
+S26900G-346,s26 gold 900 g,infant formula,baby & child,g,112,37.62,47.2,cold,0,0,False,0,1
+LIB24P-347,libra pads 24 pads,sanitary pads,women’s health,pads,51,14.15,18.38,cold,0,0,False,0,6
+ALW16P-348,always ultra thin 16 pads,sanitary pads,women’s health,pads,73,17.45,22.88,cold,0,0,False,0,6
+TOM16T-349,tom organic tampons 16 tampons,tampons,women’s health,tampons,50,8.5,11.2,cold,0,0,False,0,6
+CLE1P-350,clearblue pregnancy test 1 piece,pregnancy test,women’s health,piece,97,19.98,25.62,cold,0,0,False,0,1
+PAN60T-351,panadol paracetamol 60 tablets,pain relief,otc medicine,tablets,36,8.42,10.54,cold,0,0,False,0,12
+NUR48T-352,nurofen ibuprofen 48 tablets,pain relief,otc medicine,tablets,110,8.99,13.26,cold,0,0,False,0,12
+ASP24T-353,aspirin 24 tablets,pain relief,otc medicine,tablets,28,10.47,16.7,cold,0,0,False,0,12
+VIC200M-354,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,66,12.78,15.59,cold,0,0,False,0,6
+OTR100M-355,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,81,8.22,11.95,cold,0,0,False,0,6
+COD30T-356,codral cold tablets 30 tablets,cold & flu,otc medicine,tablets,44,12.21,18.94,cold,0,0,False,0,12
+COD10T-357,codral day and night tablets 10 tablets,cold & flu,otc medicine,tablets,115,7.45,11.15,cold,0,0,False,0,12
+ZYR10T-358,zyrtec antihistamine 10 tablets,allergy,otc medicine,tablets,76,9.77,13.55,cold,0,0,False,0,12
+CLA30T-359,claratyne 30 tablets,allergy,otc medicine,tablets,14,8.74,12.5,cold,0,0,False,0,12
+TEL10T-360,telfast 10 tablets,allergy,otc medicine,tablets,79,6.44,8.3,cold,0,0,False,0,12
+BIO60T-361,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,66,24.1,35.32,cold,0,0,False,0,3
+RED100T-362,redoxon vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,112,21.18,28.81,cold,0,0,False,0,3
+NAT60T-363,nature's way vitamin c 60 tablets,vitamin c,vitamins & supplements,tablets,106,13.25,18.01,cold,0,0,False,0,3
+BLA100C-364,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,41,26.07,33.51,cold,0,0,False,0,3
+SWI200C-365,swisse fish oil 200 capsules,fish oil,vitamins & supplements,capsules,108,29.77,45.19,cold,0,0,False,0,3
+LIF30C-366,life-space probiotic 30 capsules,probiotics,vitamins & supplements,capsules,88,18.7,22.68,cold,0,0,False,0,3
+COL150G-367,colgate toothpaste 150 g,oral care,personal care,g,46,13.54,19.52,cold,0,0,False,0,6
+ORA75G-368,oral-b toothpaste 75 g,oral care,personal care,g,62,7.37,10.42,cold,0,0,False,0,6
+CET100M-369,cetaphil moisturiser 100 ml,skin care,personal care,ml,42,24.54,35.05,cold,0,0,False,0,3
+REX100M-370,rexona deodorant 100 ml,personal hygiene,personal care,ml,90,15.89,23.72,cold,0,0,False,0,3
+PAL100M-371,palmolive body wash 100 ml,personal hygiene,personal care,ml,19,13.17,18.14,cold,0,0,False,0,3
+BAN100M-372,banana boat spf50+ 100 ml,sunscreen,sun & insect care,ml,96,21.74,29.22,cold,0,0,False,0,3
+CAN400M-373,cancer council sunscreen 400 ml,sunscreen,sun & insect care,ml,83,21.84,34.39,cold,0,0,False,0,3
+SUN200M-374,sunsense after sun gel 200 ml,after sun,sun & insect care,ml,38,11.14,14.32,cold,0,0,False,0,3
+ALO100M-375,aloe vera after sun 100 ml,after sun,sun & insect care,ml,27,8.9,13.36,cold,0,0,False,0,3
+OMR1P-376,omron digital thermometer 1 piece,thermometer,medical devices & supplies,piece,98,12.63,18.5,cold,0,0,False,0,1
+ELA10S-377,elastoplast bandage 10 strips,first aid,medical devices & supplies,strips,108,9.48,13.1,cold,0,0,False,0,6
+HUG40W-378,huggies baby wipes 40 wipes,baby wipes,baby & child,wipes,90,11.34,14.43,cold,0,0,False,0,3
+CUR40W-379,curash baby wipes 40 wipes,baby wipes,baby & child,wipes,81,11.86,18.61,cold,0,0,False,0,3
+APT900G-380,aptamil gold 900 g,infant formula,baby & child,g,95,36.78,45.22,cold,0,0,False,0,1
+S26900G-381,s26 gold 900 g,infant formula,baby & child,g,95,30.55,41.82,cold,0,0,False,0,1
+LIB24P-382,libra pads 24 pads,sanitary pads,women’s health,pads,109,9.1,13.08,cold,0,0,False,0,6
+ALW24P-383,always ultra thin 24 pads,sanitary pads,women’s health,pads,62,9.11,14.32,cold,0,0,False,0,6
+TOM16T-384,tom organic tampons 16 tampons,tampons,women’s health,tampons,96,10.38,16.39,cold,0,0,False,0,6
+CLE2P-385,clearblue pregnancy test 2 piece,pregnancy test,women’s health,piece,51,21.3,25.97,cold,0,0,False,0,1
+PAN24T-386,panadol paracetamol 24 tablets,pain relief,otc medicine,tablets,30,8.84,13.37,cold,0,0,False,0,12
+NUR60T-387,nurofen ibuprofen 60 tablets,pain relief,otc medicine,tablets,118,9.35,13.04,cold,0,0,False,0,12
+ASP60T-388,aspirin 60 tablets,pain relief,otc medicine,tablets,113,9.97,13.16,cold,0,0,False,0,12
+VIC200M-389,vicks cough syrup 200 ml,cold & flu,otc medicine,ml,63,10.35,14.67,cold,0,0,False,0,6
+OTR100M-390,otrivin nasal spray 100 ml,cold & flu,otc medicine,ml,37,12.48,19.41,cold,0,0,False,0,6
+COD20T-391,codral cold tablets 20 tablets,cold & flu,otc medicine,tablets,20,14.14,17.75,cold,0,0,False,0,12
+COD20T-392,codral day and night tablets 20 tablets,cold & flu,otc medicine,tablets,24,9.68,12.62,cold,0,0,False,0,12
+ZYR30T-393,zyrtec antihistamine 30 tablets,allergy,otc medicine,tablets,35,8.53,13.33,cold,0,0,False,0,12
+CLA30T-394,claratyne 30 tablets,allergy,otc medicine,tablets,78,11.74,15.37,cold,0,0,False,0,12
+TEL10T-395,telfast 10 tablets,allergy,otc medicine,tablets,68,8.94,11.97,cold,0,0,False,0,12
+BIO60T-396,bio c 60 tablets,vitamin c,vitamins & supplements,tablets,64,18.83,28.22,cold,0,0,False,0,3
+RED100T-397,redoxon vitamin c 100 tablets,vitamin c,vitamins & supplements,tablets,52,18.38,25.03,cold,0,0,False,0,3
+NAT30T-398,nature's way vitamin c 30 tablets,vitamin c,vitamins & supplements,tablets,51,17.33,26.01,cold,0,0,False,0,3
+BLA100C-399,blackmores fish oil 100 capsules,fish oil,vitamins & supplements,capsules,29,29.16,42.67,cold,0,0,False,0,3
+SWI200C-400,swisse fish oil 200 capsules,fish oil,vitamins & supplements,capsules,47,25.05,38.18,cold,0,0,False,0,3
