@@ -1,0 +1,82 @@
+import pandas as pd
+from daily_sales import SalesReport
+from datetime import date, timedelta
+from initial_stock import InitialStocks
+from order_suggestion import OrderSuggestion
+from models import Product, IncomingOrder, DailySales
+
+
+
+
+class MyPharmacy:
+
+    def common_fuctions(self, date, df):
+        # simulate_sales_data will generate daily sales data
+        daily_report = SalesReport.simulate_sales_data(date, df)
+
+        daily_objs = [DailySales(**row.to_dict(), date=date) for _, row in daily_report.iterrow()]
+
+        DailySales.objects.bulk_create(daily_objs)
+        print(f'DailySales:{date}_has been created')
+
+        suggestions = OrderSuggestion.restock_report(daily_report)
+
+        return suggestions.to_excel('output.xlsx', index=False)
+    
+    def pharmacy(self, df):
+        today = date.today()
+        products = Product.objects.all()
+        
+        if not products:
+            # through initial_stock function return df of initial stocks
+            stock_list = InitialStocks.initial_stock()
+            
+            stock_objs = [Product(**row.to_dict) for _, row in stock_list.itterow()]
+
+            Product.objects.bulk_create(stock_objs)
+            print('Inital stock has been generated')
+
+            return self.common_fuctions(today, stock_list)
+
+        else:
+            """
+            df means the user has reordered some stocks and 
+            pass-in order list(excel) with product's reordering quantity number
+
+            through df will update Product's incoming_stock field and 
+            generate IncomingOrder table to record each day's order
+            """
+            if df:
+                # self.common_fuctions(today, df)
+                df.loc[df['recommending_stock_number'] > 0, 'recommending_stock_number'] = 0
+                stock_objs = [Product(**row.to_dict) for _, row in df.itterow()]
+                # update Product's incoming_stock field
+                Product.objects.bulk_update(stock_objs)
+                print(f"{today}_ incoming_stock have been updated")
+
+                ps = Product.objects.filter(incoming_stock__gt=0)
+
+                def create_obj(p):
+                    def generate_order_number(product):
+                        date_str = date.today().strftime('%Y%m%d')
+                        sku = product.sku.upper()[:5]
+                        return f"ORD-{date_str}-{sku}"
+                    
+                    return IncomingOrder(
+                        product=p,
+                        quantity=p.incoming_stock,
+                        order_date=today,
+                        expected_arrival=today + timedelta(days=2),
+                        supplier='A',
+                        order_number=generate_order_number(p)
+                    )
+                
+                order_list = list(map(create_obj, ps))
+                IncomingOrder.objects.bulk_create(order_list)
+                print('IncomingOrder have been created')
+
+            else:
+                exist_products_list = (Product.objects.exclude('id')).values()
+                current_stock_df = pd.Dataframe(exist_products_list)
+                print(f'{today} _ with no new orders')
+                self.common_fuctions(today, current_stock_df)
