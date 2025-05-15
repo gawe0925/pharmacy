@@ -1,6 +1,23 @@
+# Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.pyd
+
+# Environment
 .env/
+venv/
+env/
+
+# VS Code config
+.vscode/
+
+# DB files
 *.sqlite3
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Django static/media
+static/
+media/
