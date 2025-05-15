@@ -29,7 +29,7 @@ class MyPharmacy:
             # through initial_stock function return df of initial stocks
             stock_list = InitialStocks.initial_stock()
             
-            stock_objs = [Product(**row.to_dict) for _, row in stock_list.itterow()]
+            stock_objs = [Product(**row.to_dict) for _, row in stock_list.itterows()]
 
             Product.objects.bulk_create(stock_objs)
             print('Inital stock has been generated')
@@ -47,7 +47,7 @@ class MyPharmacy:
             if df:
                 # self.common_fuctions(today, df)
                 df.loc[df['recommending_stock_number'] > 0, 'recommending_stock_number'] = 0
-                stock_objs = [Product(**row.to_dict) for _, row in df.itterow()]
+                stock_objs = [Product(**row.to_dict) for _, row in df.itterows()]
                 # update Product's incoming_stock field
                 Product.objects.bulk_update(stock_objs)
                 print(f"{today}_ incoming_stock have been updated")
