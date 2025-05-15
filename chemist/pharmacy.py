@@ -6,8 +6,6 @@ from order_suggestion import OrderSuggestion
 from models import Product, IncomingOrder, DailySales
 
 
-
-
 class MyPharmacy:
 
     def common_fuctions(date, df):
