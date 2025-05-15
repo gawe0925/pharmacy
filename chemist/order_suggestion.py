@@ -10,19 +10,19 @@ class OrderSuggestion:
 
         def restock_amount(row):
             if row['popularity'] == 'extrem':
-                if row['stock_quantity'] + row['incoming_stock'] <= 70:
-                    return row['mou'] * 10
+                if row['stock_quantity'] + row['incoming_stock'] <= 20:
+                    return row['mou'] * 20
                 elif row['stock_quantity'] + row['incoming_stock'] <= 50:
                     return row['mou'] * 16
-                elif row['stock_quantity'] + row['incoming_stock'] <= 20:
-                    return row['mou'] * 20
+                elif row['stock_quantity'] + row['incoming_stock'] <= 70:
+                    return row['mou'] * 10
                 else:
                     return 0
             elif row['popularity'] == 'hot':
-                if row['stock_quantity'] + row['incoming_stock'] <= 30:
-                    return row['mou'] * 4
-                elif row['stock_quantity'] + row['incoming_stock'] <= 20:
+                if row['stock_quantity'] + row['incoming_stock'] <= 20:
                     return row['mou'] * 5
+                elif row['stock_quantity'] + row['incoming_stock'] <= 30:
+                    return row['mou'] * 4
                 else:
                     return 0
             elif row['popularity'] == 'normal':
@@ -36,8 +36,5 @@ class OrderSuggestion:
 
         # Sort the DataFrame by the recommending_stock_number column in descending order
         df_sorted = df.sort_values(by='recommending_stock_number', ascending=False)
-
-        # file_name = f"{date}_order_suggestion.csv"
-        # df_sorted.to_csv(file_name, index=False)
 
         return df_sorted
