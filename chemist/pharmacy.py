@@ -1,9 +1,9 @@
 import pandas as pd
-from daily_sales import SalesReport
 from datetime import date, timedelta
-from initial_stock import InitialStocks
-from order_suggestion import OrderSuggestion
-from models import Product, IncomingOrder, DailySales
+from chemist.daily_sales import SalesReport
+from chemist.initial_stock import InitialStocks
+from chemist.order_suggestion import OrderSuggestion
+from chemist.models import Product, IncomingOrder, DailySales
 
 
 
@@ -35,12 +35,12 @@ class MyPharmacy:
 
             Product.objects.bulk_create(stock_objs)
             print('Inital stock has been generated')
-
+            print("My Pharmacy day - 1")
             return self.common_fuctions(today, stock_list)
 
         else:
             """
-            df means the user has reordered some stocks and 
+            df means the user/admin has reordered some stocks and 
             pass-in order list(excel) with product's reordering quantity number
 
             through df will update Product's incoming_stock field and 
@@ -54,9 +54,10 @@ class MyPharmacy:
                 Product.objects.bulk_update(stock_objs)
                 print(f"{today}_ incoming_stock have been updated")
 
+                # create IncomingOrder table
                 ps = Product.objects.filter(incoming_stock__gt=0)
 
-                def create_obj(p):
+                def incomingorder_objs(p):
                     def generate_order_number(product):
                         date_str = date.today().strftime('%Y%m%d')
                         sku = product.sku.upper()[:5]
@@ -71,11 +72,14 @@ class MyPharmacy:
                         order_number=generate_order_number(p)
                     )
                 
-                order_list = list(map(create_obj, ps))
+                order_list = list(map(incomingorder_objs, ps))
                 IncomingOrder.objects.bulk_create(order_list)
                 print('IncomingOrder have been created')
 
             else:
+                """
+                when user/admin not submit or make a new order, then will go through here
+                """
                 exist_products_list = (Product.objects.exclude('id')).values()
                 current_stock_df = pd.Dataframe(exist_products_list)
                 print(f'{today} _ with no new orders')

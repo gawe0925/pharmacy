@@ -1,5 +1,5 @@
 from datetime import date
-from models import Product, IncomingOrder
+from chemist.models import Product, IncomingOrder
 
 
 class ReStcok:
