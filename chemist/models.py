@@ -16,7 +16,8 @@ class Product(models.Model):
     stock_e = models.PositiveIntegerField()
     sold = models.PositiveIntegerField()
     incoming_stock = models.PositiveIntegerField()
-    sugge_number = models.PositiveIntegerField()
+    # suggesting reorder stock number
+    sug_reorder = models.PositiveIntegerField()
     mou = models.PositiveIntegerField()
     arrived_check = models.BooleanField(default=False)
 
