@@ -10,26 +10,26 @@ class OrderSuggestion:
 
         def restock_amount(row):
             if row['popularity'] == 'extrem':
-                if row['stock_quantity'] <= 70:
+                if row['stock_quantity'] + row['incoming_stock'] <= 70:
                     return row['mou'] * 10
-                elif row['stock_quantity'] <= 50:
+                elif row['stock_quantity'] + row['incoming_stock'] <= 50:
                     return row['mou'] * 16
-                elif row['stock_quantity'] <= 20:
+                elif row['stock_quantity'] + row['incoming_stock'] <= 20:
                     return row['mou'] * 20
                 else:
                     return 0
             elif row['popularity'] == 'hot':
-                if row['stock_quantity'] <= 30:
+                if row['stock_quantity'] + row['incoming_stock'] <= 30:
                     return row['mou'] * 4
-                elif row['stock_quantity'] <= 20:
+                elif row['stock_quantity'] + row['incoming_stock'] <= 20:
                     return row['mou'] * 5
                 else:
                     return 0
             elif row['popularity'] == 'normal':
-                return row['mou'] * 2 if row['stock_quantity'] < 6 else 0
+                return row['mou'] * 2 if row['stock_quantity'] + row['incoming_stock'] < 6 else 0
             else:
                 # for cold popularity
-                return row['mou'] if row['stock_quantity'] < 2 else 0
+                return row['mou'] if row['stock_quantity'] + row['incoming_stock'] < 2 else 0
 
         # generate reorder suggestions
         df['recommending_stock_number'] = df.apply(restock_amount, axis=1)

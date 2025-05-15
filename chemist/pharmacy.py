@@ -10,7 +10,7 @@ from models import Product, IncomingOrder, DailySales
 
 class MyPharmacy:
 
-    def common_fuctions(self, date, df):
+    def common_fuctions(date, df):
         # simulate_sales_data will generate daily sales data
         daily_report = SalesReport.simulate_sales_data(date, df)
 
