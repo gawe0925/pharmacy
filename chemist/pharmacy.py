@@ -50,7 +50,7 @@ class MyPharmacy:
             if input_df:
                 df = pd.read_excel(input_df)
                 df.loc[df['sold'] > 0, 'sold'] = 0
-                df.loc[df['recommending_stock_number'] > 0, 'recommending_stock_number'] = 0
+                df.loc[df['sug_reorder'] > 0, 'sug_reorder'] = 0
                 stock_objs = [Product(**row.to_dict()) for _, row in df.iterrows()]
                 # update Product's incoming_stock field
                 Product.objects.bulk_update(stock_objs)

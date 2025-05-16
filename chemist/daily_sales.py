@@ -50,7 +50,7 @@ class SalesReport:
         daily_list = generate_sales_number(df, num_skus_to_sell)
 
         def generate_sales(row):
-            stock_number = row['stock_quantity']
+            stock_number = row['stock_o']
             return random.randint(0, stock_number) if stock_number > 0 else 0
             
         daily_list['sold'] = daily_list.apply(generate_sales, axis=1)

@@ -24,14 +24,14 @@ class ReStcok:
 
         for order in orders:
             product = order.product
-            product.stock_quantity += order.quantity
+            product.stock_o += order.quantity
             product.incoming_stock -= order.quantity
             product_list.append(product)
 
             order.arrived_check = True
             order_list.append(order)
 
-        Product.objects.bulk_update(product_list, ['stock_quantity'])
+        Product.objects.bulk_update(product_list, ['stock_o'])
         print('updated Product table')
         IncomingOrder.objects.bulk_update(order_list, ['arrived_check'])
         print('updated IncomingOrder table')

@@ -44,12 +44,13 @@ class InitialStocks:
                     sku = f"{name.split()[0][:3].upper()}{size}{unit[:1].upper()}-{idx:03d}"
                     cost_price = round(random.uniform(cost[0], cost[1]), 2)
                     retail_price = round(cost_price * random.uniform(1.2, 1.6), 2)
-                    stock = random.randint(10, 120)
+                    stock_o = random.randint(10, 120)
+                    stock_e = stock_o
                     popularity = 'cold'
                     sold = 0
                     incoming_stock = 0
-                    delivered_check = False
-                    recom_stock_num = 0
+                    arrived_check = False
+                    sug_reorder = 0
                     mou = mo
                     all_rows.append([
                         sku,
@@ -57,14 +58,15 @@ class InitialStocks:
                         cat,
                         dept,
                         unit,
-                        stock,
+                        stock_o,
+                        stock_e,
                         cost_price,
                         retail_price,
                         popularity,
                         sold,
                         incoming_stock,
-                        delivered_check,
-                        recom_stock_num,
+                        arrived_check,
+                        sug_reorder,
                         mou
                     ])
                     idx += 1
@@ -77,13 +79,8 @@ class InitialStocks:
 
         df = pd.DataFrame(all_rows, columns=[
             "sku", "product_name", "category", "department", "unit",
-            "stock_quantity", "cost_price", "retail_price", "popularity", "sold",
-            "incoming_stock", "delivered_check", "recommending_stock_number", "mou"
+            "stock_o", "stock_e", "cost_price", "retail_price", "popularity", 
+            "sold", "incoming_stock", "arrived_check", "sug_reorder", "mou"
         ])
-        # df.to_csv("pharmacy_stock.csv", encoding="utf-8-sig", index=False)
-
-        # objs = [Product(**row.to_dict()) for _, row in df.iterrows()]
-        # Product.objects.bulk_create(objs)
-        # print('Initial Stock has been created')
 
         return df
