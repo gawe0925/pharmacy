@@ -35,7 +35,7 @@ class OrderSuggestion:
         # generate reorder suggestions
         df['sug_reorder'] = df.apply(restock_amount, axis=1)
 
-        # Sort the DataFrame by the sug_reorder column in descending order
-        df_sorted = df.sort_values(by='sug_reorder', ascending=False)
+        # sort DataFrame by stock_e in ascending order
+        df_sorted = df.sort_values(by='stock_e', ascending=True)
 
         return df_sorted

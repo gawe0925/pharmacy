@@ -39,7 +39,7 @@ class MyPharmacy:
             return self.common_fuctions(today, stock_list)
 
         else:
-            print('update exist pharmacy')
+            print('updating exist pharmacy')
             """
             df means the user/admin has reordered some stocks and 
             pass-in order list(excel) with product's reordering quantity number
