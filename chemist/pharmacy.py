@@ -11,13 +11,14 @@ class MyPharmacy:
     def common_fuctions(self, date, df):
         # simulate_sales_data will generate daily sales data
         daily_report = SalesReport.simulate_sales_data(date, df)
+        # generate reorder suggestions
+        suggestions = OrderSuggestion.restock_report(daily_report)
 
+        # to create DailySales records
+        daily_report.drop(columns=['sug_reorder'], inplace=True)
         daily_objs = [DailySales(**row.to_dict(), date=date) for _, row in daily_report.iterrows()]
-
         DailySales.objects.bulk_create(daily_objs)
         print(f'DailySales:{date}_has been created')
-
-        suggestions = OrderSuggestion.restock_report(daily_report)
 
         file_name = f'{date}_order_suggestion.xlsx'
         return suggestions.to_excel(file_name, index=False)
