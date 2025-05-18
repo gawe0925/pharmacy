@@ -11,13 +11,14 @@ class MyPharmacy:
     def common_fuctions(self, date, df):
         # simulate_sales_data will generate daily sales data
         daily_report = SalesReport.simulate_sales_data(date, df)
+        # generate reorder suggestions
+        suggestions = OrderSuggestion.restock_report(daily_report)
 
+        # to create DailySales records
+        daily_report.drop(columns=['sug_reorder'], inplace=True)
         daily_objs = [DailySales(**row.to_dict(), date=date) for _, row in daily_report.iterrows()]
-
         DailySales.objects.bulk_create(daily_objs)
         print(f'DailySales:{date}_has been created')
-
-        suggestions = OrderSuggestion.restock_report(daily_report)
 
         file_name = f'{date}_order_suggestion.xlsx'
         return suggestions.to_excel(file_name, index=False)
@@ -39,7 +40,7 @@ class MyPharmacy:
             return self.common_fuctions(today, stock_list)
 
         else:
-            print('update exist pharmacy')
+            print('updating exist pharmacy')
             """
             df means the user/admin has reordered some stocks and 
             pass-in order list(excel) with product's reordering quantity number
@@ -50,7 +51,7 @@ class MyPharmacy:
             if input_df:
                 df = pd.read_excel(input_df)
                 df.loc[df['sold'] > 0, 'sold'] = 0
-                df.loc[df['recommending_stock_number'] > 0, 'recommending_stock_number'] = 0
+                df.loc[df['sug_reorder'] > 0, 'sug_reorder'] = 0
                 stock_objs = [Product(**row.to_dict()) for _, row in df.iterrows()]
                 # update Product's incoming_stock field
                 Product.objects.bulk_update(stock_objs)

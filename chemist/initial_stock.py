@@ -34,6 +34,39 @@ class InitialStocks:
             ("women’s health",  "pregnancy test",   ["clearblue pregnancy test"], ["piece"], [1, 2], (18, 22), (1)),
         ]
 
+        # set hot categories
+        extrem_hot_categories = ["pain relief"]
+        hot_categories = ["sunscreen", "after sun", "allergy"]
+        cold_categories = ["infant formula", "thermometer", "probiotics", 
+                           "fish oil", "pregnancy test",]
+        hot_keywords = ["deodorant"]
+
+        # way to determine popularity level
+        def classify_popularity(cat, name):
+            # base on categories
+            if cat in extrem_hot_categories:
+                return "extrem"
+            elif cat in hot_categories:
+                return "hot"
+            elif cat in cold_categories:
+                return "cold"
+            # base on product's name
+            elif any(word in name for word in hot_keywords):
+                return "hot"
+            # others
+            else:
+                return "normal"
+        
+        def gen_stock_by_po(po):
+            if po == "extrem":
+                return random.randint(60, 120)
+            elif po == "hot":
+                return  random.randint(30, 60)
+            elif po == "normal":
+                return  random.randint(10, 30)
+            elif po == "cold":
+                return  random.randint(1, 10)
+
         all_rows = []
         idx = 1
         while len(all_rows) < 400:
@@ -41,32 +74,30 @@ class InitialStocks:
                 for name in prods:
                     size = random.choice(sizes)
                     unit = random.choice(units)
-                    sku = f"{name.split()[0][:3].upper()}{size}{unit[:1].upper()}-{idx:03d}"
                     cost_price = round(random.uniform(cost[0], cost[1]), 2)
                     retail_price = round(cost_price * random.uniform(1.2, 1.6), 2)
-                    stock = random.randint(10, 120)
-                    popularity = 'cold'
-                    sold = 0
-                    incoming_stock = 0
-                    delivered_check = False
-                    recom_stock_num = 0
-                    mou = mo
-                    all_rows.append([
-                        sku,
-                        f"{name} {size} {unit}",
-                        cat,
-                        dept,
-                        unit,
-                        stock,
-                        cost_price,
-                        retail_price,
-                        popularity,
-                        sold,
-                        incoming_stock,
-                        delivered_check,
-                        recom_stock_num,
-                        mou
-                    ])
+                    popularity = classify_popularity(cat, name)
+                    stock_o = gen_stock_by_po(popularity)
+
+                    row = {
+                        "sku": f"{name.split()[0][:3].upper()}{size}{unit[:1].upper()}-{idx:03d}",
+                        "product_name": f"{name} {size} {unit}",
+                        "category": cat,
+                        "department": dept,
+                        "unit": unit,
+                        "cost_price": cost_price,
+                        "retail_price": retail_price,
+                        "popularity": popularity,
+                        "stock_o": stock_o,
+                        "stock_e": stock_o,
+                        "sold": 0,
+                        "sug_reorder": 0,
+                        "mou": mo,
+                        "incoming_stock": 0,
+                        "arrived_check": False
+                    }
+
+                    all_rows.append(row)
                     idx += 1
                     if len(all_rows) >= 400:
                         break
@@ -75,15 +106,6 @@ class InitialStocks:
             if len(all_rows) >= 400:
                 break
 
-        df = pd.DataFrame(all_rows, columns=[
-            "sku", "product_name", "category", "department", "unit",
-            "stock_quantity", "cost_price", "retail_price", "popularity", "sold",
-            "incoming_stock", "delivered_check", "recommending_stock_number", "mou"
-        ])
-        # df.to_csv("pharmacy_stock.csv", encoding="utf-8-sig", index=False)
-
-        # objs = [Product(**row.to_dict()) for _, row in df.iterrows()]
-        # Product.objects.bulk_create(objs)
-        # print('Initial Stock has been created')
+        df = pd.DataFrame(all_rows)
 
         return df
