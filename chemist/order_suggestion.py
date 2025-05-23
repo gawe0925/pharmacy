@@ -3,12 +3,6 @@
 class OrderSuggestion:
     def restock_report(df):
 
-        def update_stock_numbers(row):
-            # stock_e = stock_o - sold
-            return row['stock_o'] - row['sold']
-
-        df['stock_e'] = df.apply(update_stock_numbers, axis=1)
-
         def restock_amount(row):
             if row['popularity'] == 'extrem':
                 if row['stock_e'] + row['incoming_stock'] <= 20:
@@ -36,6 +30,6 @@ class OrderSuggestion:
         df['sug_reorder'] = df.apply(restock_amount, axis=1)
 
         # sort DataFrame by stock_e in ascending order
-        df_sorted = df.sort_values(by='stock_e', ascending=True)
+        df_sorted = df.sort_values(by=['popularity', 'stock_e', 'sug_reorder'], ascending=[True, True, True])
 
         return df_sorted
