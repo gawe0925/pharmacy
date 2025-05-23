@@ -16,7 +16,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from chemist.views import ExcelProcessAPIView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('report/', ExcelProcessAPIView.as_view())
 ]

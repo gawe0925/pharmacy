@@ -93,8 +93,7 @@ class InitialStocks:
                         "sold": 0,
                         "sug_reorder": 0,
                         "mou": mo,
-                        "incoming_stock": 0,
-                        "arrived_check": False
+                        "incoming_stock": 0
                     }
 
                     all_rows.append(row)

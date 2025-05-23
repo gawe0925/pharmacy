@@ -1,5 +1,6 @@
 import random
 import pandas as pd
+from chemist.models import Product, DailySales
 
 
 class SalesReport:
@@ -48,5 +49,34 @@ class SalesReport:
 
         # weight field is only for simulation but nothing else
         df.drop(columns=['weight'], inplace=True)
+
+        def update_stock_numbers(row):
+            # stock_e = stock_o - sold
+            return row['stock_o'] - row['sold']
+
+        df['stock_e'] = df.apply(update_stock_numbers, axis=1)
+
+        ps = Product.objects.filter(sku__in=df['sku'].to_list()).distinct()
+        p_dict = {p.sku: p for p in ps}
+
+        day_list = []
+        for _, row in df.iterrows():
+            product = p_dict.get(row['sku'])
+            if product:
+                day_list.append(
+                    DailySales(
+                        date=date,
+                        product=product,
+                        stock_o=row['stock_o'],
+                        stock_e=row['stock_e'],
+                        sold=row['sold'],
+                        incoming_stock=row['incoming_stock']
+                    )
+                )
+
+        DailySales.objects.bulk_create(day_list)
+        print({"message": "DailySales have been created"})
+
+        df['incoming_stock'] = 0
 
         return df

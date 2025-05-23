@@ -35,3 +35,5 @@ class ReStcok:
         print('updated Product table')
         IncomingOrder.objects.bulk_update(order_list, ['arrived_check'])
         print('updated IncomingOrder table')
+
+        return True
